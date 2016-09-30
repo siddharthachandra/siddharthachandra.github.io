@@ -1,0 +1,149 @@
+#Header{
+position:fixed;
+top:0;
+left:125;
+width:100%;
+height:50;
+z-index:2;
+color:#444444;
+overflow:hidden;
+}
+.box{
+/*
+background-color:#444444;
+color:white;
+*/
+background-color:white;
+color:#444444;
+padding:10;
+/*border:5px solid black;*/
+}
+.box td{
+color:#444444;
+}
+.box td b{
+color:#444444;
+}
+b{
+color:#444444;
+}
+.box b{
+color:#444444;
+}
+#Header h1{
+color:#444444;
+	cursor:pointer;
+}
+#Header h1:hover{
+	text-decoration:overline;
+}
+#Header td{
+}
+#Footer{
+background-image:url('Images/bg2.png');
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+height:5%;
+border-top:1px solid gray;
+z-index:2;
+}
+#LeftCol{
+/*background-color:#444444;
+border-right:5px solid black;*/
+position:fixed;
+top:0;
+left:0;
+width:120;
+height:100%;
+z-index:1;
+}
+#LeftCol h4{
+color:#444444;
+}
+#LeftCol h4:hover{
+text-decoration:underline ;
+}
+#RightBody{
+position:fixed;
+top:9%;
+left:21%;
+width:78%;
+height:86%;
+z-index:1;
+overflow:auto;
+}
+#RightBody h1{
+border-bottom:1px solid #dddddd;
+}
+#RightBody p{
+	left:10px;
+	color:gray;
+}
+#RightBody b{
+}
+h1 h2 h3 h4 h5 a{
+color:gray;
+}
+body  {
+	background-color:#ffffff;
+	font: 15px Georgia, "Times New Roman", Times, serif;
+}
+#WebPresence{
+position:fixed;
+top:0;
+right:0;
+height:50;
+z-index:3;
+overflow:hidden;
+}
+#WebPresence td{
+}
+
+/* The party starts here*/
+::-webkit-scrollbar {
+position:relative;
+left:10px;
+top:10px;
+width: 7px;
+height: 7px;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color:#666666;
+    border:1px solid rgba(85, 85, 85, .6);
+    -webkit-border-radius:10px;
+    position:absolute;
+    left:5%;
+    top:5%;
+    width:5px
+}
+ 
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color:#444444;
+    width:8px
+}
+/* Styling of TeX and LaTeX. */
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub, .tex sub {
+  vertical-align: -0.25em;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
