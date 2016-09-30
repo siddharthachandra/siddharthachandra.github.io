@@ -9,7 +9,7 @@
 			document.getElementById('AboutMe').style.display='';
 			document.getElementById('Publications').style.display='none';
 			document.getElementById('Contacts').style.display='none';
-			document.getElementById('Projects').style.display='none';
+			<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='none';
 			document.getElementById('Extras').style.display='none';
 		}
@@ -18,7 +18,7 @@
 			document.getElementById('AboutMe').style.display='none';
 			document.getElementById('Publications').style.display='';
 			document.getElementById('Contacts').style.display='none';
-			document.getElementById('Projects').style.display='none';
+<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='none';
 			document.getElementById('Extras').style.display='none';
 		}
@@ -27,7 +27,7 @@
 			document.getElementById('AboutMe').style.display='none';
 			document.getElementById('Publications').style.display='none';
 			document.getElementById('Contacts').style.display='';
-			document.getElementById('Projects').style.display='none';
+<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='none';
 			document.getElementById('Extras').style.display='none';
 		}
@@ -36,7 +36,7 @@
 			document.getElementById('AboutMe').style.display='none';
 			document.getElementById('Publications').style.display='none';
 			document.getElementById('Contacts').style.display='none';
-			document.getElementById('Projects').style.display='none';
+			<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='';
 			document.getElementById('Extras').style.display='none';
 		}
@@ -45,7 +45,7 @@
 			document.getElementById('AboutMe').style.display='none';
 			document.getElementById('Publications').style.display='none';
 			document.getElementById('Contacts').style.display='none';
-			document.getElementById('Projects').style.display='none';
+			<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='none';
 			document.getElementById('Extras').style.display='';
 		}
@@ -54,7 +54,7 @@
 			document.getElementById('AboutMe').style.display='none';
 			document.getElementById('Publications').style.display='none';
 			document.getElementById('Contacts').style.display='none';
-			document.getElementById('Projects').style.display='';
+			<!-- document.getElementById('Projects').style.display='none'; -->
 			document.getElementById('Resume').style.display='none';
 			document.getElementById('Extras').style.display='none';
 		}
@@ -121,7 +121,7 @@ Feel free to take a look at my Résumé and please send me an email if you are a
 				<tbody><tr><td><h1>1.</h1></td><td>Siddhartha Chandra &amp; Iasonas Kokkinos <br><b>Fast, Exact and Multi-Scale Inference for Semantic Image Segmentation with Deep Gaussian CRFs <a href="http://siddharthachandra.github.io/resources/chandra-eccv-2016.pdf">(PDF)</a></b><br><i>European Conference on Computer Vision, Netherlands 2016</i>
 				<tbody><tr><td><h1>2.</h1></td><td>Alp Guler, Siddhartha Chandra &amp; Iasonas Kokkinos et. al.<br><b>Human Joint Angle Estimation and Gesture Recognition for Assistive Robotic Vision <a href="http://siddharthachandra.github.io/resources/guler-acvr-2016.pdf">(PDF)</a></b><br><i>Workshop, European Conference on Computer Vision, Netherlands 2016</i>
 				<tbody><tr><td><h1>3.</h1></td><td>Siddhartha Chandra, Stavros Tsogkas &amp; Iasonas Kokkinos<br><b>Accurate Human-Limb Segmentation in RGB-D images for Intelligent Mobility Assistance Robots <a href="http://siddharthachandra.github.io/resources/chandra-acvr-2015.pdf">(PDF)</a> </b><br><i>Workshop, International Conference on Computer Vision, Chile 2015</i>
-				<tbody><tr><td><h1>4.</h1></td><td>Siddhartha Chandra, Grigoris Chrysos &amp; Iasonas Kokkinos<br><b>Surface Based Object Detection in RGBD Images<a href="http://siddharthachandra.github.io/resources/chandra-bmvc-2015.pdf">(PDF)</a> </b><br><i>British Machine Vision Conference, U.K. 2015</i>
+				<tbody><tr><td><h1>4.</h1></td><td>Siddhartha Chandra, Grigoris Chrysos &amp; Iasonas Kokkinos<br><b>Surface Based Object Detection in RGBD Images <a href="http://siddharthachandra.github.io/resources/chandra-bmvc-2015.pdf">(PDF)</a> </b><br><i>British Machine Vision Conference, U.K. 2015</i>
 				<tbody><tr><td><h1>5.</h1></td><td>Siddhartha Chandra, Shailesh Kumar &amp; C.V. Jawahar,<br><b>Learning Multiple Non-Linear Subspaces using K-RBMs <a href="http://siddharthachandra.github.io/resources/chandra-cvpr-2013.pdf">(PDF)</a> </b><br><i>IEEE Conference on Computer Vision and Pattern Recognition, USA 2013</i>
 				</td></tr><tr><td><h1>6.</h1></td><td>Siddhartha Chandra, Shailesh Kumar &amp; C.V. Jawahar,<br><b>Learning Hierarchical Bag of Words using Naive Bayes Clustering <a href="http://siddharthachandra.github.io/resources/chandra-accv-2012.pdf">(PDF)</a> </b><br><i>Asian Conference on Computer Vision, Korea 2012</i>
 				</td></tr><tr><td><h1>7.</h1></td><td>Siddhartha Chandra &amp; C.V. Jawahar,<br><b>Partial Least Squares Kernel for Computing Similarities between Video Sequences <a href="http://siddharthachandra.github.io/resources/chandra-icpr-2012.pdf">(PDF)</a> </b><br>(Oral), <i>International Conference on Pattern Recognition, Japan 2012</i>
@@ -131,6 +131,7 @@ Feel free to take a look at my Résumé and please send me an email if you are a
 			<p></p>
 		</div>
 		<!---------------------------->
+		<!--
 		<div id="Projects" style="display:none;" class="box">
 			<p></p><h1>Major Projects</h1>
 			<table cellpadding="5">
@@ -163,7 +164,7 @@ Here we seek simple, intuitive solutions to two fundamental questions, (a) <i> w
 				</td></tr><tr><td style="border-right:1px solid gray;"><img src="./index_files/pro3.jpg" width="200"></td><td style="vertical-align:top;"><h4>Clustering NEWS Videos based on Visual Content</h4> We used image processing to segment huge NEWS video volumes into relevant stories, reject advertisements and other clutter using SVM classifiers. We use colour features to hierarchically cluster these video-stories.
 			</td></tr></tbody></table>
 
-		</div>
+		</div> -->
 		<div id="Resume" style="display:none;" class="box">
 			<p></p><h1>Résumé</h1> <!--typeset using <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></h3>-->
 <br>
