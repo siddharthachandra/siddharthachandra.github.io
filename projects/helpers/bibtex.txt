@@ -1,0 +1,6 @@
+@inproceedings{chandraCVPR2018,
+  title={Deep Spatio-Temporal Random Fields for Efficient Video Segmentation},
+  author={Chandra, Siddhartha and Couprie, Camille and Kokkinos, Iasonas},
+  booktitle={CVPR},
+  year={2018}
+}
