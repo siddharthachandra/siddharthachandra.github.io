@@ -26,8 +26,7 @@ width:90%;
 height:90%;
 z-index:2;
 color:#444444;
-overflow:scroll;
-padding-bottom: 100px;
+overflow:auto;
 }
 #MyBodyAbstract h2{
 border-bottom:1px solid #dddddd;
