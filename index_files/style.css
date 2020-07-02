@@ -147,3 +147,26 @@ height: 7px;
   margin-left: -0.36em;
   margin-right: -0.15em;
 }
+#publications {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#publications td, #publications th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#publications tr:hover {background-color: #ddd;}
+/*
+#publications tr:nth-child(even){background-color: #f2f2f2;}
+*/
+
+#publications th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
